@@ -15,6 +15,7 @@ void app_test(void)
 	ptBTN->Init(ptBTN);
 	while(1)
 	{
+		//Test git 
 		//按键按下切换灯的状态
 		int state = ptBTN->Read(ptBTN);
 		if(0 == state)
